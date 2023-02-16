@@ -396,8 +396,8 @@ function kakaoShare() {
   var kakaoTitle = "당신의 점수는 " + score + "점입니다.";
   var kakaoDesc = document.querySelector("#result_title").textContent;
 
-  var imgUrl = "http://127.0.0.1:5500/img/thumb.png";
-  var siteUrl = "http://127.0.0.1:5500/";
+  var imgUrl = "https://helltest.kr/img/thumb.png";
+  var siteUrl = "https://helltest.kr/";
   var resultUrl = siteUrl + "?q=" + shareQuery + "&p=" + shareParam;
   var testUrl = siteUrl + "?utm_source=kakaotalk&utm_medium=social&utm_campaign=share_chat";
 
