@@ -385,7 +385,7 @@ if (new URL(location.href).searchParams.has("q") && new URL(location.href).searc
   document.querySelector("#result_explain").innerHTML = result[scoreRange]["hint"];
 }
 
-var kakaoApiKey = "SDK 키 입력"; // 카카오 SDK API Key 입력
+var kakaoApiKey = "2d91937b4c8c887f663400d6ab358304"; // 카카오 SDK API Key 입력
 Kakao.init(kakaoApiKey);
 Kakao.isInitialized();
 
