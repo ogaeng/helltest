@@ -1,16 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua&Noto+Sans+KR&display=swap");
 
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 #wrap {
   color: white;
   background-color: black !important;
   max-width: 500px;
+  min-height: auto;
   height: 100%;
   font-family: "Jua", sans-serif;
   margin: auto;
@@ -61,12 +55,6 @@ body {
 
 .btn {
   font-size: 18px;
-}
-
-#footer {
-  bottom: 10px;
-  text-align: center;
-  position: absolute;
 }
 
 #share_btn {
